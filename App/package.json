@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "sample web app for msal-node",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build": "babel src -d lib"
   },
   "author": "Microsoft",
   "license": "MIT",
