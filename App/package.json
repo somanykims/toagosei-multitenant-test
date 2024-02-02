@@ -7,6 +7,9 @@
   },
   "author": "Microsoft",
   "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+   },
   "dependencies": {
     "@azure/msal-node": "^1.17.3",
     "vue": "^3.2.37",
