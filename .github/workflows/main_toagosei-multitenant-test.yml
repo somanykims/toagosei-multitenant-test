@@ -23,7 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          cd ./App
+          cd App
           npm install
           npm run build --if-present
           npm run test --if-present
@@ -61,3 +61,6 @@ jobs:
           slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_91A05E98957649AD8209CE8E92349991 }}
+     
+      - name: npm start
+        run: npm start
